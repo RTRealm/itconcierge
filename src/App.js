@@ -38,8 +38,9 @@ class App extends Component {
 							</div>
 							<div class='aboutus'>About Us</div>
 							<div class='loremipsumdolorsi'>
-								About ussss d minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-								aliquip ex ea commodo consequat.
+								4ITS focuses on technology outsourcing and IT solutions. We leverage on the team's
+								decades long experience in the areas of IT departments, coding as well as running
+								business organizations and projects.
 							</div>
 							<div class='rectangle3'></div>
 							<div class='ourvaluableservice'>Our Valuable Services</div>
