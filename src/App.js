@@ -1,8 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-class App extends React.Component {
+class App extends Component {
 	render() {
 		return (
 			<div className='App'>
@@ -16,25 +15,19 @@ class App extends React.Component {
 							<img alt='Image' src='./img/website-rectangle-copy@2x.png' class='rectanglecopy' />
 							<img alt='Image' src='./img/website-combined-shape@2x.png' class='combinedshape' />
 							<div class='home'>
-								<span class='span1'>HOM</span>
-								<span class='span2'>E</span>
+								<span class='span1'>HOME</span>
 							</div>
 							<div class='about'>
-								<span class='span1'>ABOU</span>
-								<span class='span2'>T</span>
+								<span class='span1'>ABOUT</span>
 							</div>
 							<div class='services'>
-								<span class='span1'>SERVICE</span>
-								<span class='span2'>S</span>
+								<span class='span1'>SERVICES</span>
 							</div>
 							<div class='portfolio'>
-								<span class='span1'>PORTFOLI</span>
-								<span class='span2'>O</span>
+								<span class='span1'>PORTFOLIO</span>
 							</div>
 							<img alt='Image' src='/img/website-rectangle-1@2x.png' class='rectangle2' />
-							<img alt='Image' src='./img/website-rectangle-copy-2@2x.png' class='rectanglecopy2' />
 							<div class='contactus'>CONTACT US</div>
-							<div class='seeourwork'>SEE OUR WORK</div>
 							<img alt='Image' src='/img/website-group.png' class='group' />
 							<div class='wecreatecontentth'>
 								We Create
