@@ -1,5 +1,9 @@
 .offerbody {
-	height: 800px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+}
+
+img {
+	width: 40%;
+	height: auto;
 }

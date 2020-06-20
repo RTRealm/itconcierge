@@ -17,7 +17,7 @@ class App extends Component {
 				</div>
 				<AboutUs
 					lorem='O nas'
-					bodylorem='Specjalizujemy się w outsourcingu technologicznym oraz rozwiązaniach informatycznych powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych'
+					bodylorem='4ITS specjalizuje się w outsourcingu technologicznym oraz rozwiązaniach informatycznych powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych'
 				/>
 				<AboutUs lorem='Misja, wizja, wartości' />
 				<div className='services'>
@@ -26,9 +26,25 @@ class App extends Component {
 					<Service bodylorem='Wartości którymi się kierujemy to uczciwość, prawość, profesjonalizm, poszanowanie pracowników i współpracowników Klienta, swoich i dostawców, wywieranie pozytywnego wpływu na otoczenie, efektywne zarządzanie.' />
 				</div>
 				<div className='offerbox'>
-					<div className='offerAboutUs'></div>
-					<AboutUs lorem='Zakres usług' />
-					<Offer />
+					<div className='offerAboutUs'>
+						<AboutUs lorem='Zakres usług' />
+						<Offer
+							offertitle='IT OUTSOURCING'
+							offertext='Helpdesk -  wsparcie użytkowników'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
+						/>
+						<Offer
+							alignimage='left'
+							offertitle='IT OUTSOURCING'
+							offertext='Helpdesk -  wsparcie użytkowników'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
+						/>
+						<Offer
+							offertitle='IT OUTSOURCING'
+							offertext='Helpdesk -  wsparcie użytkowników'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
+						/>
+					</div>
 				</div>
 				<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
 			</div>

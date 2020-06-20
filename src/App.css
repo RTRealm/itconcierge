@@ -12,15 +12,16 @@
 }
 
 .offerbox {
-	margin-top: -150px;
-	background-color: blue;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	margin-top: -250px;
+	background-color: #11114e;
 	width: 75vw;
 	z-index: -1;
 }
 
 .offerAboutUs {
-	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 300px;
+	padding-bottom: 50px;
 }
