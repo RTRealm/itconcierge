@@ -6,7 +6,7 @@ export default function Service() {
 	return (
 		<div className='service'>
 			<img alt='imageService' src={bitmap} className='bitmap' />
-			<div className='loremipsumdolorsicopy'>
+			<div className='bodyText'>
 				App dev ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 				ut labore et dolore magna aliqua.
 			</div>

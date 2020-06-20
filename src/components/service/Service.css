@@ -1,16 +1,18 @@
 .service {
 	background-color: bisque;
-	width: 20vw;
+	width: 30%;
+	height: 500px;
 }
 
 .bitmap {
-	position: relative;
+	width: 100%;
+	height: auto;
 }
 
-.website .loremipsumdolorsicopy {
+.bodyText {
 	position: relative;
 	font-family: 'AvenirNext-Regular', Helvetica, Arial, serif;
-	font-size: 2em;
+	font-size: 1.2rem;
 	color: rgba(43, 43, 43, 1);
 	text-align: center;
 }
