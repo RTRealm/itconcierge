@@ -6,8 +6,10 @@ import separator from '../../img/website-line@2x.png';
 export default function AboutUs(props) {
 	return (
 		<div className='aboutUsContent'>
-			<p className='title'>{props.lorem}</p>
-			<img alt='separator' src={separator}></img>
+			<p className='title' style={{ color: props.color }}>
+				{props.lorem}
+			</p>
+			<img alt='separator' src={separator} className='separator'></img>
 			<p className='description'>{props.bodylorem}</p>
 		</div>
 	);

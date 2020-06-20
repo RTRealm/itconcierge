@@ -33,7 +33,7 @@ class App extends Component {
 				<div className='offerbox'>
 					<div className='offerAboutUs'>
 						<div id='uslugi'>
-							<AboutUs lorem='Zakres usług' />
+							<AboutUs lorem='Zakres usług' color='white' />
 						</div>
 						<Offer
 							offertitle='IT OUTSOURCING'
@@ -57,6 +57,7 @@ class App extends Component {
 					<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
 				</div>
 				<Form />
+				<div className='footer'></div>
 			</div>
 		);
 	}

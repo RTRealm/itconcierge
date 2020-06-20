@@ -8,6 +8,16 @@
 	align-items: center;
 }
 
+.main {
+	margin-top: 40px;
+}
+
+#onas,
+#misja,
+#kontakt {
+	margin-top: 120px;
+}
+
 .services {
 	width: 65vw;
 	display: flex;
@@ -28,4 +38,8 @@
 	align-items: center;
 	margin-top: 300px;
 	padding-bottom: 50px;
+}
+
+.footer {
+	margin-bottom: 150px;
 }

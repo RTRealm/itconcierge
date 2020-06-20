@@ -1,9 +1,9 @@
 .aboutUsContent {
-	width: 50vw;
+	width: 40vw;
 	text-align: center;
 }
 
-p {
+.aboutUsContent p {
 	margin: 0px;
 }
 
@@ -15,4 +15,9 @@ p {
 	margin-top: 15px;
 	font-size: 1.2rem;
 	color: grey;
+}
+
+.separator {
+	width: 15%;
+	height: auto;
 }
