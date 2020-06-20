@@ -16,11 +16,15 @@ class App extends Component {
 				<div className='main'>
 					<Main />
 				</div>
-				<AboutUs
-					lorem='O nas'
-					bodylorem='4ITS specjalizuje się w outsourcingu technologicznym oraz rozwiązaniach informatycznych powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych'
-				/>
-				<AboutUs lorem='Misja, wizja, wartości' />
+				<div id='onas'>
+					<AboutUs
+						lorem='O nas'
+						bodylorem='4ITS specjalizuje się w outsourcingu technologicznym oraz rozwiązaniach informatycznych powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych'
+					/>
+				</div>
+				<div id='misja'>
+					<AboutUs lorem='Misja, wizja, wartości' />
+				</div>
 				<div className='services'>
 					<Service bodylorem='Odciążamy swoich klientów: zarządzających i ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.' />
 					<Service bodylorem='Nasi klienci otrzymują nowoczesne, efektywne, o ‘wartości dodanej’ rozwiązania dzięki którym ich praca staje się łatwiejsza.' />
@@ -28,7 +32,9 @@ class App extends Component {
 				</div>
 				<div className='offerbox'>
 					<div className='offerAboutUs'>
-						<AboutUs lorem='Zakres usług' />
+						<div id='uslugi'>
+							<AboutUs lorem='Zakres usług' />
+						</div>
 						<Offer
 							offertitle='IT OUTSOURCING'
 							offertext='Helpdesk -  wsparcie użytkowników'
@@ -47,7 +53,9 @@ class App extends Component {
 						/>
 					</div>
 				</div>
-				<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
+				<div id='kontakt'>
+					<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
+				</div>
 				<Form />
 			</div>
 		);
