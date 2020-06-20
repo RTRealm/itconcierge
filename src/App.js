@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import AboutUs from './components/AboutUs/AboutUs';
 import Service from './components/Service/Service';
+import Offer from './components/Offer/Offer';
 
 class App extends Component {
 	render() {
@@ -23,6 +24,11 @@ class App extends Component {
 					<Service bodylorem='Odciążamy swoich klientów: zarządzających i ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.' />
 					<Service bodylorem='Nasi klienci otrzymują nowoczesne, efektywne, o ‘wartości dodanej’ rozwiązania dzięki którym ich praca staje się łatwiejsza.' />
 					<Service bodylorem='Wartości którymi się kierujemy to uczciwość, prawość, profesjonalizm, poszanowanie pracowników i współpracowników Klienta, swoich i dostawców, wywieranie pozytywnego wpływu na otoczenie, efektywne zarządzanie.' />
+				</div>
+				<div className='offerbox'>
+					<div className='offerAboutUs'></div>
+					<AboutUs lorem='Zakres usług' />
+					<Offer />
 				</div>
 				<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
 			</div>
