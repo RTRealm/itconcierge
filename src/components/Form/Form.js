@@ -5,7 +5,7 @@ export default class Form extends Component {
 	constructor() {
 		super();
 		this.state = {
-			name: '',
+			subject: '',
 			email: '',
 			body: '',
 		};
@@ -37,13 +37,14 @@ export default class Form extends Component {
 	// 	this.clearForm();
 	// };
 
-	handleClick = () => {
+	handleClick = (e) => {
+		e.preventDefault();
 		console.log('submitted!');
 	};
 
 	clearForm = () => {
 		this.setState({
-			name: '',
+			subject: '',
 			email: '',
 			body: '',
 		});
@@ -55,9 +56,9 @@ export default class Form extends Component {
 				<form onSubmit={this.handleClick}>
 					<input
 						type='text'
-						value={this.state.name}
-						name='name'
-						placeholder='your name'
+						value={this.state.subject}
+						name='subject'
+						placeholder='temat'
 						onChange={this.handleChange}
 					/>
 					<br />
@@ -65,7 +66,7 @@ export default class Form extends Component {
 						type='email'
 						value={this.state.email}
 						name='email'
-						placeholder='your email'
+						placeholder='adres email'
 						onChange={this.handleChange}
 					/>
 					<br />
@@ -73,7 +74,7 @@ export default class Form extends Component {
 						type='text'
 						value={this.state.body}
 						name='body'
-						placeholder='your message'
+						placeholder='jak mozemy pomoc?'
 						onChange={this.handleChange}
 					/>
 					<br />
