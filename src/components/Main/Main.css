@@ -1,8 +1,16 @@
 .mainContent {
-	width: 90vw;
-	height: 50rem;
+	width: 80vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	border: 2px solid red;
+	align-items: center;
+}
+
+.maintitle {
+	font-size: 7rem;
+}
+
+.mainpicture {
+	width: 100%;
+	height: auto;
 }

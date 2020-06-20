@@ -14,12 +14,17 @@ class App extends Component {
 				<div className='main'>
 					<Main />
 				</div>
-				<AboutUs />
+				<AboutUs
+					lorem='About Us'
+					bodylorem='4ITS focuses on technology outsourcing and IT solutions. We leverage on the team decades long experience in the areas of IT departments, coding as well as running business organizations and projects.'
+				/>
+				<AboutUs lorem='Our Valuable Services' />
 				<div className='services'>
 					<Service />
 					<Service />
 					<Service />
 				</div>
+				<AboutUs lorem='Contact Us' bodylorem='Questions, Comments, Concerns?' />
 			</div>
 		);
 	}

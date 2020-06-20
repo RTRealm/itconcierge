@@ -1,7 +1,6 @@
 .service {
 	background-color: bisque;
 	width: 30%;
-	height: 500px;
 }
 
 .bitmap {
@@ -10,7 +9,7 @@
 }
 
 .bodyText {
-	position: relative;
+	margin: 1rem;
 	font-family: 'AvenirNext-Regular', Helvetica, Arial, serif;
 	font-size: 1.2rem;
 	color: rgba(43, 43, 43, 1);
