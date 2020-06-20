@@ -1,34 +1,16 @@
 .service {
-	border: 1px solid red;
 	background-color: bisque;
+	width: 20vw;
 }
 
-.website .bitmap {
-	background-color: rgba(255, 255, 255, 0);
-	top: 1162px;
-	height: 313px;
-	width: 346px;
-	position: absolute;
-	margin: 0;
-	left: 151px;
-	transform: rotate(0deg);
-	opacity: 1;
+.bitmap {
+	position: relative;
 }
 
-.loremipsumdolorsicopy {
-	background-color: rgba(255, 255, 255, 0);
-	top: 1510px;
-	height: auto;
-	width: 337px;
-	position: absolute;
-	margin: 0;
-	left: 155px;
-	transform: rotate(0deg);
-	/* opacity: 1; */
+.website .loremipsumdolorsicopy {
+	position: relative;
 	font-family: 'AvenirNext-Regular', Helvetica, Arial, serif;
-	font-size: 20px;
+	font-size: 2em;
 	color: rgba(43, 43, 43, 1);
 	text-align: center;
-	line-height: 27px;
-	z-index: 1;
 }

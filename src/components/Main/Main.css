@@ -1,0 +1,8 @@
+.mainContent {
+	width: 90vw;
+	height: 30rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 2px solid red;
+}
