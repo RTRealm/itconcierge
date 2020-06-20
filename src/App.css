@@ -4,10 +4,6 @@
 	align-items: center;
 }
 
-.main {
-	height: 50vh;
-}
-
 .services {
 	width: 65vw;
 	display: flex;
