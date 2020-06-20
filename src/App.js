@@ -15,16 +15,16 @@ class App extends Component {
 					<Main />
 				</div>
 				<AboutUs
-					lorem='About Us'
-					bodylorem='4ITS focuses on technology outsourcing and IT solutions. We leverage on the team decades long experience in the areas of IT departments, coding as well as running business organizations and projects.'
+					lorem='O nas'
+					bodylorem='Specjalizujemy się w outsourcingu technologicznym oraz rozwiązaniach informatycznych powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych'
 				/>
-				<AboutUs lorem='Our Valuable Services' />
+				<AboutUs lorem='Misja, wizja, wartości' />
 				<div className='services'>
-					<Service />
-					<Service />
-					<Service />
+					<Service bodylorem='Odciążamy swoich klientów: zarządzających i ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.' />
+					<Service bodylorem='Nasi klienci otrzymują nowoczesne, efektywne, o ‘wartości dodanej’ rozwiązania dzięki którym ich praca staje się łatwiejsza.' />
+					<Service bodylorem='Wartości którymi się kierujemy to uczciwość, prawość, profesjonalizm, poszanowanie pracowników i współpracowników Klienta, swoich i dostawców, wywieranie pozytywnego wpływu na otoczenie, efektywne zarządzanie.' />
 				</div>
-				<AboutUs lorem='Contact Us' bodylorem='Questions, Comments, Concerns?' />
+				<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
 			</div>
 		);
 	}
