@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Service from './components/service/Service';
+
 class App extends Component {
 	render() {
 		return (
 			<div className='App'>
-				<div style={{ margin: 0, background: 'rgba(255, 255, 255, 1.0)' }}>
+				<div style={{ margin: 0 }}>
 					<input id='anPageName' name='page' type='hidden' value='website' />
 					<div className='website anima-word-break '>
 						<div style={{ width: 1440, height: 100, position: 'relative', margin: 'auto' }}>
-							<img alt='Image' src='./img/website-oval@2x.png' className='oval' />
+							<img alt='Image' src='../src/img/website-oval@2x.png' className='oval' />
 							<img alt='Image' src='./img/website-rectangle.png' className='rectangle' />
 							<div className='rectangle1'></div>
 							<img
@@ -34,9 +36,9 @@ class App extends Component {
 							<div className='portfolio'>
 								<span className='span1'>PORTFOLIO</span>
 							</div>
-							<img alt='Image' src='/img/website-rectangle-1@2x.png' className='rectangle2' />
+							<img alt='Image' src='../src/img/website-rectangle-1@2x.png' className='rectangle2' />
 							<div className='contactus'>CONTACT US</div>
-							<img alt='Image' src='/img/website-group.png' className='group' />
+							<img alt='Image' src='./img/website-group.png' className='group' />
 							<div className='wecreatecontentth'>
 								We Create
 								<br />
@@ -50,28 +52,29 @@ class App extends Component {
 								decades long experience in the areas of IT departments, coding as well as running
 								business organizations and projects.
 							</div>
+							<Service />
 							<div className='rectangle3'></div>
 							<div className='ourvaluableservice'>Our Valuable Services</div>
-							<div className='rectangle4'></div>
+							{/* <div className='rectangle4'></div> */}
 							<div className='rectanglecopy3'></div>
 							<div className='rectanglecopy4'></div>
-							<img alt='Image' src='./img/website-bitmap.png' className='bitmap' />
+							{/* <img alt='Image' src='./img/website-bitmap.png' className='bitmap' /> */}
 							<div className='loremipsumdolorsi1'>
 								Web dev dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna aliqua.
 							</div>
 							<img alt='Image' src='./img/website-bitmap-2@2x.png' className='bitmap2' />
-							<div className='loremipsumdolorsicopy'>
+							{/* <div className='loremipsumdolorsicopy'>
 								App dev ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna aliqua.
-							</div>
+							</div> */}
 							<img alt='Image' src='./img/website-bitmap-1.png' className='bitmap1' />
 							<div className='loremipsumdolorsicopy2'>
 								UX/UI ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna aliqua.
 							</div>
 							<div className='webdevelopment'>Web Development</div>
-							<div className='appdevelopment'>App Development</div>
+							{/* <div className='appdevelopment'>App Development</div> */}
 							<div className='uiuxdesign'>UI UX Design</div>
 							<img
 								alt='Image'
@@ -101,8 +104,8 @@ class App extends Component {
 							/>
 							<div className='readmore'>READ MORE</div>
 							<div className='readmorecopy2'>READ MORE</div>
-							<img alt='Image' src='./img/website-oval-1@2x.png' className='oval1' />
-							<img alt='Image' src='./img/website-path-2@2x.png' className='path2' />
+							{/* <img alt='Image' src='./img/website-oval-1@2x.png' className='oval1' />
+							<img alt='Image' src='./img/website-path-2@2x.png' className='path2' /> */}
 							<div className='ourwork'>Our Work</div>
 							<div className='brandname'>Brand Name</div>
 							<div className='brandnamecopy2'>Brand Name</div>
