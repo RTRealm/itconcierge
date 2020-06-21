@@ -11,17 +11,22 @@
 	margin: 30px 5px;
 }
 
+.offertext {
+	width: 45%;
+	align-self: center;
+}
+
 .offerbody p {
 	color: white;
 	margin: 30px;
 }
 
 .offerBodyTitle {
-	font-size: 1.7vw;
-	font-weight: 700;
+	font-size: 2.5vw;
 }
 
 .offerBodyText {
+	line-height: 2vw;
 }
 
 @media screen and (max-width: 850px) {
@@ -41,7 +46,12 @@
 		text-align: center;
 	}
 	.offerBodyText {
-		font-size: 3vw;
-		text-align: center;
+		line-height: 5vw;
+		font-size: 3.5vw;
+		text-align: left;
+	}
+	.offertext {
+		width: 95%;
+		align-self: center;
 	}
 }
