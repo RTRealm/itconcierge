@@ -41,18 +41,18 @@ class App extends Component {
 							alignimage='left'
 							offertitle='IT OUTSOURCING'
 							offertext='Helpdesk -  wsparcie użytkowników'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592737835/itconcierge/concImg3.png'
 						/>
 						<Offer
 							offertitle='IT OUTSOURCING'
 							offertext='Helpdesk -  wsparcie użytkowników'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592737838/itconcierge/concImg2.png'
 						/>
 						<Offer
 							alignimage='left'
 							offertitle='IT OUTSOURCING'
 							offertext='Helpdesk -  wsparcie użytkowników'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592738048/itconcierge/concImg1.png'
 						/>
 					</div>
 				</div>
