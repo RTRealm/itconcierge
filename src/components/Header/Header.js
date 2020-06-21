@@ -1,6 +1,13 @@
 import React from 'react';
 import './Header.css';
 
+import Button from '../Button/Button';
+
+function handleClick(e) {
+	e.preventDefault();
+	console.log('submitted!');
+}
+
 export default function Header() {
 	return (
 		<div className='header'>
@@ -20,11 +27,7 @@ export default function Header() {
 				</a>
 			</div>
 			<div className='headerItem'>
-				<button className='pseudoButton pseudoButton-1'>
-					<a href='#kontakt'>
-						<p id='kontaktButton'>Kontakt</p>
-					</a>
-				</button>
+				<Button text='kontakt' onClick={handleClick}></Button>
 			</div>
 		</div>
 	);

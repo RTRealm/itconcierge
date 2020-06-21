@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Service from './components/Service/Service';
 import Offer from './components/Offer/Offer';
 import Form from './components/Form/Form';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
 	render() {
@@ -58,7 +59,7 @@ class App extends Component {
 					<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
 				</div>
 				<Form />
-				<div className='footer'></div>
+				<Footer />
 			</div>
 		);
 	}

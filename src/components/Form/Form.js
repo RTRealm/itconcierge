@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Form.css';
 
+import Button from '../Button/Button';
+
 export default class Form extends Component {
 	constructor() {
 		super();
@@ -53,8 +55,9 @@ export default class Form extends Component {
 	render() {
 		return (
 			<div>
-				<form onSubmit={this.handleClick}>
+				<form>
 					<input
+						className='formField'
 						type='text'
 						value={this.state.subject}
 						name='subject'
@@ -63,14 +66,16 @@ export default class Form extends Component {
 					/>
 					<br />
 					<input
+						className='formField'
 						type='email'
 						value={this.state.email}
 						name='email'
-						placeholder='adres email'
+						placeholder='adres@email'
 						onChange={this.handleChange}
 					/>
 					<br />
-					<input
+					<textarea
+						className='formField message'
 						type='text'
 						value={this.state.body}
 						name='body'
@@ -78,7 +83,7 @@ export default class Form extends Component {
 						onChange={this.handleChange}
 					/>
 					<br />
-					<input type='submit' />
+					<Button onClick={this.handleClick} text='Wyslij' />
 				</form>
 			</div>
 		);
