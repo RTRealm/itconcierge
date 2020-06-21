@@ -64,7 +64,7 @@ export default class Form extends Component {
 						placeholder='temat'
 						onChange={this.handleChange}
 					/>
-					<br />
+
 					<input
 						className='formField'
 						type='email'
@@ -73,8 +73,8 @@ export default class Form extends Component {
 						placeholder='adres@email'
 						onChange={this.handleChange}
 					/>
-					<br />
-					<textarea
+
+					<input
 						className='formField message'
 						type='text'
 						value={this.state.body}
@@ -82,7 +82,7 @@ export default class Form extends Component {
 						placeholder='jak mozemy pomoc?'
 						onChange={this.handleChange}
 					/>
-					<br />
+
 					<Button onClick={this.handleClick} text='Wyslij' />
 				</form>
 			</div>

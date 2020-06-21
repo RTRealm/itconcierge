@@ -6,7 +6,6 @@ export default function Offer(props) {
 		textAlign: 'right',
 	};
 	const screenWidth = window.innerWidth;
-	console.log(screenWidth);
 	if (screenWidth > 850) {
 		if (props.alignimage === 'left') {
 			return (
