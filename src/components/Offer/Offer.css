@@ -1,9 +1,21 @@
 .offerbody {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	margin: 10px 0;
 }
 
-img {
+.offerbody img {
 	width: 40%;
 	height: auto;
+	margin: 30px 5px;
+}
+
+.offerbody p {
+	color: white;
+	margin: 30px;
+}
+
+.offerBodyTitle {
+	font-size: 1.7vw;
+	font-weight: 700;
 }

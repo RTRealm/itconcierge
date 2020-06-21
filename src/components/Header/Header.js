@@ -22,7 +22,7 @@ export default function Header() {
 			<div className='headerItem'>
 				<button className='pseudoButton pseudoButton-1'>
 					<a href='#kontakt'>
-						<p id='kontakt'>Kontakt</p>
+						<p id='kontaktButton'>Kontakt</p>
 					</a>
 				</button>
 			</div>

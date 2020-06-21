@@ -36,17 +36,18 @@ class App extends Component {
 							<AboutUs lorem='Zakres usług' color='white' />
 						</div>
 						<Offer
-							offertitle='IT OUTSOURCING'
-							offertext='Helpdesk -  wsparcie użytkowników'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
-						/>
-						<Offer
 							alignimage='left'
 							offertitle='IT OUTSOURCING'
 							offertext='Helpdesk -  wsparcie użytkowników'
 							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
 						/>
 						<Offer
+							offertitle='IT OUTSOURCING'
+							offertext='Helpdesk -  wsparcie użytkowników'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
+						/>
+						<Offer
+							alignimage='left'
 							offertitle='IT OUTSOURCING'
 							offertext='Helpdesk -  wsparcie użytkowników'
 							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1547302800/photo-1534972195531-d756b9bfa9f2.jpg'
