@@ -20,7 +20,7 @@ export default class Form extends Component {
 	// handleClick = async (e) => {
 	// 	e.preventDefault();
 	// 	const data = {
-	// 		name: this.state.name,
+	// 		name: this.state.subject,
 	// 		email: this.state.email,
 	// 		body: this.state.body,
 	// 	};
@@ -52,7 +52,7 @@ export default class Form extends Component {
 
 	render() {
 		return (
-			<React.Fragment>
+			<div>
 				<form onSubmit={this.handleClick}>
 					<input
 						type='text'
@@ -80,7 +80,7 @@ export default class Form extends Component {
 					<br />
 					<input type='submit' />
 				</form>
-			</React.Fragment>
+			</div>
 		);
 	}
 }
