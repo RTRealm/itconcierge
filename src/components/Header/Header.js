@@ -3,12 +3,11 @@ import './Header.css';
 
 import Button from '../Button/Button';
 
-function handleClick(e) {
-	e.preventDefault();
-	console.log('submitted!');
-}
-
-export default function Header() {
+export default function Header(props) {
+	function handleClick(e) {
+		e.preventDefault();
+		props.scrollpoint.current.scrollIntoView();
+	}
 	return (
 		<div className='header'>
 			<div className='headerItem'>

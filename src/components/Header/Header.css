@@ -26,30 +26,18 @@ a {
 	margin: 0px;
 }
 
-.pseudoButton {
-	text-align: center;
-	outline: none;
-	border: none;
-	transition: 0.5s;
-	background-size: 200% auto;
-	color: #fff;
-	box-shadow: 0 0 20px #eee;
-	width: 120px;
-	height: 40px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-	cursor: pointer;
-}
-.pseudoButton:hover {
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-.pseudoButton {
-	background-image: linear-gradient(to right, #dd5e89 0%, #f7bb97 51%, #dd5e89 100%);
-}
-
-.pseudoButton-1 {
-	background-image: linear-gradient(to right, #dd5e89 0%, #f7bb97 51%, #dd5e89 100%);
-}
-.pseudoButton-1:hover {
-	background-position: right center;
+@media screen and (max-width: 850px) {
+	.header {
+		width: 90vw;
+		height: 20vw;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	.headerItem {
+		margin-right: 20px;
+	}
+	.header p {
+		font-size: 3vw;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
 }

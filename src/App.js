@@ -11,9 +11,10 @@ import Footer from './components/Footer/Footer';
 
 class App extends Component {
 	render() {
+		const refKontakt = React.createRef();
 		return (
 			<div className='app'>
-				<Header />
+				<Header scrollpoint={refKontakt} />
 				<div className='main'>
 					<Main />
 				</div>
@@ -55,7 +56,7 @@ class App extends Component {
 						/>
 					</div>
 				</div>
-				<div id='kontakt'>
+				<div ref={refKontakt}>
 					<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
 				</div>
 				<Form />
