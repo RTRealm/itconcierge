@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import AboutUs from './components/AboutUs/AboutUs';
-import Service from './components/Service/Service';
+import Service from './components/Mission/Service';
 import Offer from './components/Offer/Offer';
 import Form from './components/Form/Form';
 import Footer from './components/Footer/Footer';
