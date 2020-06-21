@@ -22,6 +22,10 @@ a {
 	text-transform: uppercase;
 }
 
+#kontakt {
+	margin: 0px;
+}
+
 .pseudoButton {
 	text-align: center;
 	outline: none;
