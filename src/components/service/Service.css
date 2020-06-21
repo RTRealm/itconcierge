@@ -10,8 +10,21 @@
 
 .bodyText {
 	margin: 1rem;
-	font-family: 'AvenirNext-Regular', Helvetica, Arial, serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: rgba(43, 43, 43, 1);
 	text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+	.service {
+		background-color: bisque;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.bodyText {
+		margin: 1rem;
+		font-size: 1rem;
+		color: rgba(43, 43, 43, 1);
+		text-align: center;
+	}
 }
