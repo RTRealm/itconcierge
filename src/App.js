@@ -56,7 +56,7 @@ class App extends Component {
 						/>
 					</div>
 				</div>
-				<div ref={refKontakt}>
+				<div id='kontakt' ref={refKontakt}>
 					<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
 				</div>
 				<Form />
