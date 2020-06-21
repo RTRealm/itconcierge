@@ -22,3 +22,17 @@
 	height: auto;
 	margin-bottom: 10px;
 }
+
+@media screen and (max-width: 850px) {
+	.aboutUsContent {
+		width: 80vw;
+	}
+	.title {
+		font-size: 2rem;
+	}
+	.description {
+		margin-bottom: 10px;
+		font-size: 1.1rem;
+		color: grey;
+	}
+}

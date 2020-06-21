@@ -14,3 +14,21 @@
 	width: 50%;
 	height: auto;
 }
+
+@media screen and (max-width: 850px) {
+	.mainContent {
+		width: 90vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.maintitle {
+		font-size: 10vw;
+		text-align: center;
+	}
+	.mainpicture {
+		width: 80%;
+		height: auto;
+	}
+}

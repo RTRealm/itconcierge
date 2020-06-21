@@ -19,11 +19,11 @@
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .pseudoButton {
-	background-image: linear-gradient(to right, #ba55d3 0%, #f7bb97 51%, #ba55d3 100%);
+	background-image: linear-gradient(to right, #9032eb 0%, #df3590 51%, #9032eb 100%);
 }
 
 .pseudoButton-1 {
-	background-image: linear-gradient(to right, #ba55d3 0%, #f7bb97 51%, #ba55d3 100%);
+	background-image: linear-gradient(to right, #9032eb 0%, #df3590 51%, #9032eb 100%);
 }
 .pseudoButton-1:hover {
 	background-position: right center;
