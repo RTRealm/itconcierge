@@ -55,7 +55,7 @@ class App extends Component {
 						<Offer
 							alignimage='left'
 							offertitle='24/7 Helpdesk'
-							offertext1='Wsparcie użytkownika.n>Administracja serwerów.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów.n>Doradztwo w tworzeniu infrastruktury IT.'
+							offertext1='Wsparcie użytkownika online.n>Administracja serwerów.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów.n>Doradztwo w tworzeniu infrastruktury IT.'
 							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592737835/itconcierge/concImg3.png'
 						/>
 						<Offer
