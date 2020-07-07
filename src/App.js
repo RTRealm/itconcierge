@@ -54,8 +54,8 @@ class App extends Component {
 						</div>
 						<Offer
 							alignimage='left'
-							offertitle='IT Outsourcing'
-							offertext1='Helpdesk - wsparcie użytkownika.n>Administracja serwerów.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów.n>Doradztwo w tworzeniu infrastruktury IT.'
+							offertitle='24/7 Helpdesk'
+							offertext1='Wsparcie użytkownika.n>Administracja serwerów.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów.n>Doradztwo w tworzeniu infrastruktury IT.'
 							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592737835/itconcierge/concImg3.png'
 						/>
 						<Offer
@@ -66,7 +66,7 @@ class App extends Component {
 						<Offer
 							alignimage='left'
 							offertitle='Bezpieczeństwo'
-							offertext1='Zapewnienie kompleksowego bezpieczeństwa danych firmy.n>Testy bezpieczeństwa sieci i wprowadzanie zabezpieczeń.n>Stworzenie rozwiązania wysokiej dostępności.n>Opracowanie i wdrożenie polityki backupu.n>Migracja usług lokalnych do chmury.'
+							offertext1='Zapewnienie kompleksowego bezpieczeństwa danych.n>Testy bezpieczeństwa i wprowadzanie zabezpieczeń.n>Stworzenie rozwiązania wysokiej dostępności.n>Opracowanie i wdrożenie polityki backupu.n>Migracja usług lokalnych do chmury.'
 							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592738048/itconcierge/concImg1.png'
 						/>
 					</div>
