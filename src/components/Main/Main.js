@@ -1,14 +1,17 @@
 import React from 'react';
 import './Main.css';
-import mainpicture from '../../img/website-group.png';
 
 export default function Main() {
 	return (
 		<div className='mainContent'>
 			<div className='maintitle'>
-				<p>We deliver the best support</p>
+				<p>Twój zespół IT - 4IT Support</p>
 			</div>
-			<img alt='main' src={mainpicture} className='mainpicture'></img>
+			<img
+				alt='main'
+				src='https://res.cloudinary.com/ohcash/image/upload/v1594056489/itconcierge/imgMain.png'
+				className='mainpicture'
+			></img>
 		</div>
 	);
 }

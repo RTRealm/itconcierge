@@ -19,29 +19,21 @@ export default class Form extends Component {
 		});
 	};
 
-	// handleClick = async (e) => {
-	// 	e.preventDefault();
-	// 	const data = {
-	// 		name: this.state.subject,
-	// 		email: this.state.email,
-	// 		body: this.state.body,
-	// 	};
-	// 	await fetch(
-	// 		'https://ju7qrql2j0.execute-api.eu-central-1.amazonaws.com/mailUsDeploy/contactus',
-	// 		{
-	// 			method: 'POST',
-	// 			dataType: 'json',
-	// 			crossDomain: 'true',
-	// 			contentType: 'application/json; charset=utf-8',
-	// 			body: JSON.stringify(data),
-	// 		}
-	// 	);
-	// 	this.clearForm();
-	// };
-
-	handleClick = (e) => {
+	handleClick = async (e) => {
 		e.preventDefault();
-		console.log('submitted!');
+		const data = {
+			name: this.state.subject,
+			email: this.state.email,
+			body: this.state.body,
+		};
+		await fetch('https://6qlhgzwief.execute-api.eu-central-1.amazonaws.com/default/mailMe4IT', {
+			method: 'POST',
+			dataType: 'json',
+			crossDomain: 'true',
+			contentType: 'application/json; charset=utf-8',
+			body: JSON.stringify(data),
+		});
+		this.clearForm();
 	};
 
 	clearForm = () => {

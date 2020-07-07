@@ -1,6 +1,7 @@
 .service {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	background-color: bisque;
 	width: 30%;
 }
@@ -8,7 +9,6 @@
 .bitmap {
 	width: 100%;
 	height: auto;
-	justify-self: flex-start;
 }
 
 .bodyText {

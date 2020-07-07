@@ -28,9 +28,24 @@ class App extends Component {
 					<AboutUs lorem='Misja, wizja, wartości' />
 				</div>
 				<div className='services'>
-					<Service bodylorem='Odciążamy swoich klientów: zarządzających i ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.' />
-					<Service bodylorem='Nasi klienci otrzymują nowoczesne, efektywne, o ‘wartości dodanej’ rozwiązania dzięki którym ich praca staje się łatwiejsza.' />
-					<Service bodylorem='Wartości którymi się kierujemy to uczciwość, prawość, profesjonalizm, poszanowanie pracowników i współpracowników Klienta, swoich i dostawców, wywieranie pozytywnego wpływu na otoczenie, efektywne zarządzanie.' />
+					<Service
+						bodylorem='Odciążamy swoich klientów: zarządzających i ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.'
+						bitmap={
+							'https://res.cloudinary.com/ohcash/image/upload/v1594056486/itconcierge/img1.png'
+						}
+					/>
+					<Service
+						bodylorem='Nasi klienci otrzymują nowoczesne, efektywne, o ‘wartości dodanej’ rozwiązania dzięki którym ich praca staje się łatwiejsza.'
+						bitmap={
+							'https://res.cloudinary.com/ohcash/image/upload/v1594056486/itconcierge/img3.png'
+						}
+					/>
+					<Service
+						bodylorem='Wartości którymi się kierujemy to uczciwość, prawość, profesjonalizm, poszanowanie pracowników i współpracowników Klienta, swoich i dostawców, wywieranie pozytywnego wpływu na otoczenie, efektywne zarządzanie.'
+						bitmap={
+							'https://res.cloudinary.com/ohcash/image/upload/v1594056486/itconcierge/img2.png'
+						}
+					/>
 				</div>
 				<div className='offerbox'>
 					<div className='offerAboutUs'>

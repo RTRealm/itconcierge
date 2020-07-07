@@ -1,15 +1,14 @@
 .formField {
 	width: 20vw;
-	height: 2vw;
 	margin-bottom: 20px;
-}
-
-textarea {
-	height: 7vw;
 }
 
 input {
 	text-align: left;
+}
+
+input::placeholder {
+	color: grey;
 }
 
 form {
@@ -18,10 +17,18 @@ form {
 	align-items: center;
 }
 
+.message {
+	width: 20vw;
+	height: 8vw;
+	margin-bottom: 20px;
+}
+
 @media screen and (max-width: 850px) {
 	.formField {
 		width: 50vw;
-		height: 7vw;
 		margin-bottom: 15px;
+	}
+	.message {
+		height: 12vh;
 	}
 }
