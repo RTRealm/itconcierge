@@ -6,6 +6,12 @@
 	align-items: center;
 }
 
+.mainText {
+	background: -webkit-linear-gradient(#9032eb 0%, #df3590 51%, #9032eb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .maintitle {
 	font-size: 5.5vw;
 }

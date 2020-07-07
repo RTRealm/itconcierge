@@ -5,7 +5,7 @@ export default function Main() {
 	return (
 		<div className='mainContent'>
 			<div className='maintitle'>
-				<p>Twój zespół IT - 4IT Support</p>
+				<p className='mainText'>Twój zespół IT - 4IT Support</p>
 			</div>
 			<img
 				alt='main'
