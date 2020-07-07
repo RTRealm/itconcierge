@@ -66,16 +66,15 @@ export default class Form extends Component {
 						onChange={this.handleChange}
 					/>
 
-					<input
+					<textarea
 						className='formField message'
 						type='text'
 						value={this.state.body}
 						name='body'
-						placeholder='jak mozemy pomoc?'
+						placeholder='jak możemy pomóc?'
 						onChange={this.handleChange}
 					/>
-
-					<Button onClick={this.handleClick} text='Wyslij' />
+					<Button onClick={this.handleClick} text='Wyślij' />
 				</form>
 			</div>
 		);
