@@ -12,7 +12,7 @@
 }
 
 .offertext {
-	width: 45%;
+	width: 48%;
 	align-self: center;
 }
 
@@ -27,6 +27,7 @@
 
 .offerBodyText {
 	line-height: 2vw;
+	font-size: 1.2vw;
 }
 
 @media screen and (max-width: 850px) {

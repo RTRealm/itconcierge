@@ -29,7 +29,7 @@ class App extends Component {
 				</div>
 				<div className='services'>
 					<Service
-						bodylorem='Odciążamy swoich klientów: zarządzających i ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.'
+						bodylorem='Odciążamy swoich klientów: zarządzających, ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.'
 						bitmap={
 							'https://res.cloudinary.com/ohcash/image/upload/v1594056486/itconcierge/img1.png'
 						}
@@ -55,7 +55,7 @@ class App extends Component {
 						<Offer
 							alignimage='left'
 							offertitle='IT Outsourcing'
-							offertext1='Helpdesk - wsparcie użytkownika.n>Administracja serwerów.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów informatycznych.n>Doradztwo w tworzeniu infrastruktury IT.'
+							offertext1='Helpdesk - wsparcie użytkownika.n>Administracja serwerów.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów.n>Doradztwo w tworzeniu infrastruktury IT.'
 							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592737835/itconcierge/concImg3.png'
 						/>
 						<Offer
