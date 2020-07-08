@@ -4,7 +4,7 @@
 }
 
 input {
-	height: 30px;
+	padding: 1em;
 	text-align: left;
 }
 
@@ -19,12 +19,12 @@ form {
 }
 
 textarea {
+	padding: 1em;
 	font-family: inherit;
 }
 
 .message {
-	width: 20vw;
-	height: 8vw;
+	/* width: 20vw; */
 	margin-bottom: 20px;
 }
 
@@ -33,7 +33,7 @@ textarea {
 		width: 50vw;
 		margin-bottom: 15px;
 	}
-	.message {
+	/* .message {
 		height: 12vh;
-	}
+	} */
 }

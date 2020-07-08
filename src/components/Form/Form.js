@@ -68,7 +68,7 @@ export default class Form extends Component {
 
 					<textarea
 						className='formField message'
-						type='text'
+						rows='8'
 						value={this.state.body}
 						name='body'
 						placeholder='jak możemy pomóc?'
