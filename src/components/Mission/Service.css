@@ -1,20 +1,28 @@
 .service {
-	display: flex;
-	flex-direction: column;
+	/* display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
+	align-items: center; */
 	background-color: bisque;
 	width: 30%;
 	height: 500px;
 }
 
+.imageService {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60%;
+}
+
 .bitmap {
-	width: 90%;
-	height: auto;
+	width: 80%;
+	height: 80%;
 }
 
 .bodyText {
-	margin: 1rem;
+	margin: 1.2rem;
 	font-size: 1rem;
 	color: rgba(43, 43, 43, 1);
 	text-align: center;
@@ -24,12 +32,12 @@
 	.service {
 		background-color: bisque;
 		width: 100%;
-		height: 400px;
+		height: 420px;
 		margin-bottom: 40px;
 	}
 	.bodyText {
-		margin: 1rem;
-		font-size: 1rem;
+		margin: 1.2rem;
+		font-size: 0.8rem;
 		color: rgba(43, 43, 43, 1);
 		text-align: center;
 	}

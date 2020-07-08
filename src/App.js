@@ -31,19 +31,19 @@ class App extends Component {
 					<Service
 						bodylorem='Odciążamy swoich klientów: zarządzających, ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.'
 						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594056486/itconcierge/img1.png'
+							'https://res.cloudinary.com/ohcash/image/upload/v1594223481/itconcierge/img1.png'
 						}
 					/>
 					<Service
 						bodylorem='Nasi klienci otrzymują nowoczesne, efektywne, o ‘wartości dodanej’ rozwiązania dzięki którym ich praca staje się łatwiejsza.'
 						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594056486/itconcierge/img3.png'
+							'https://res.cloudinary.com/ohcash/image/upload/v1594223481/itconcierge/img2.png'
 						}
 					/>
 					<Service
 						bodylorem='Wartości którymi się kierujemy to uczciwość, prawość, profesjonalizm, poszanowanie pracowników i współpracowników Klienta, swoich i dostawców, wywieranie pozytywnego wpływu na otoczenie, efektywne zarządzanie.'
 						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594056486/itconcierge/img2.png'
+							'https://res.cloudinary.com/ohcash/image/upload/v1594223480/itconcierge/img3.png'
 						}
 					/>
 				</div>
