@@ -12,6 +12,15 @@ a {
 	text-decoration: none;
 }
 
+a:link,
+a:visited {
+	color: #9932cc;
+}
+
+a:hover {
+	color: #ba55d3;
+}
+
 .headerItem {
 	margin-right: 80px;
 }
