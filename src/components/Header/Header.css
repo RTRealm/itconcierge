@@ -21,6 +21,11 @@ a:hover {
 	color: #ba55d3;
 }
 
+.headerItemLogo {
+	margin-right: 500px;
+	margin-top: 50px;
+}
+
 .headerItem {
 	margin-right: 80px;
 }
@@ -48,5 +53,8 @@ a:hover {
 		font-size: 3vw;
 		font-weight: 700;
 		text-transform: uppercase;
+	}
+	.headerItemLogo {
+		display: none;
 	}
 }
