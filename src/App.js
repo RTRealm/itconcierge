@@ -72,7 +72,11 @@ class App extends Component {
 					</div>
 				</div>
 				<div id='kontakt' ref={refKontakt}>
-					<AboutUs lorem='Skontaktuj się z nami' bodylorem='Pytania, Komentarze, Problemy?' />
+					<AboutUs
+						lorem='Skontaktuj się z nami'
+						bodylorem='tel.: + 48 736 861 191'
+						classOption='phoneNumber'
+					/>
 				</div>
 				<Form />
 				<Footer />

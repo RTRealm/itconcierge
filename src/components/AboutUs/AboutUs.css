@@ -11,6 +11,12 @@
 	font-size: 2.5rem;
 }
 
+.phoneNumber {
+	color: #ba55d3 !important;
+	font-weight: 700;
+	margin-bottom: 20px !important;
+}
+
 .description {
 	margin-bottom: 50px;
 	font-size: 1.4rem;

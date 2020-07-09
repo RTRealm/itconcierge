@@ -11,7 +11,10 @@ export default function Header(props) {
 	return (
 		<div className='header'>
 			<div className='headerItemLogo'>
-				<img src='https://res.cloudinary.com/ohcash/image/upload/v1594239068/itconcierge/logo4.svg' />
+				<img
+					alt='4IT logo'
+					src='https://res.cloudinary.com/ohcash/image/upload/v1594239068/itconcierge/logo4.svg'
+				/>
 			</div>
 			<div className='headerItem'>
 				<a href='#onas'>

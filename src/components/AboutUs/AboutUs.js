@@ -10,7 +10,7 @@ export default function AboutUs(props) {
 				{props.lorem}
 			</p>
 			<img alt='separator' src={separator} className='separator'></img>
-			<p className='description'>{props.bodylorem}</p>
+			<p className={`description ${props.classOption}`}>{props.bodylorem}</p>
 		</div>
 	);
 }
