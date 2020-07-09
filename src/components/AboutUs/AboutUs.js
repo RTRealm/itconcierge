@@ -13,8 +13,10 @@ export default function AboutUs(props) {
 			{props.classOption === 'phoneNumber' ? (
 				<div className='description'>
 					<a href='tel:+48736861191' className={`description ${props.classOption}`}>
-						<i class='fas fa-phone'></i>
-						&nbsp;&nbsp;{props.bodylorem}
+						<p>
+							<i class='fas fa-phone'></i>
+							&nbsp;&nbsp;{props.bodylorem}
+						</p>
 					</a>
 				</div>
 			) : (
