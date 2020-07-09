@@ -58,7 +58,7 @@ class App extends Component {
 						<Offer
 							alignimage='left'
 							offertitle='24/7 Helpdesk'
-							offertext1='Zapewniamy jeden punkt kontaktu.n>Administracja serwerów.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów.n>Doradztwo w tworzeniu infrastruktury IT.'
+							offertext1='Jeden punkt kontaktu.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów.n>Doradztwo w tworzeniu infrastruktury IT.'
 							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592737835/itconcierge/concImg3.png'
 						/>
 						<Offer
@@ -69,7 +69,7 @@ class App extends Component {
 						<Offer
 							alignimage='left'
 							offertitle='Bezpieczeństwo'
-							offertext1='Zapewnienie kompleksowego bezpieczeństwa danych.n>Testy bezpieczeństwa i wprowadzanie zabezpieczeń.n>Stworzenie rozwiązania wysokiej dostępności.n>Opracowanie i wdrożenie polityki backupu.n>Migracja usług lokalnych do chmury.'
+							offertext1='Zapewnienie kompleksowego bezpieczeństwa danych.n>Testy bezpieczeństwa i wprowadzanie zabezpieczeń.n>Stworzenie rozwiązania wysokiej dostępności.n>Opracowanie i wdrożenie polityki backupu.'
 							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592738048/itconcierge/concImg1.png'
 						/>
 					</div>
@@ -77,7 +77,7 @@ class App extends Component {
 				<div id='kontakt' ref={refKontakt}>
 					<AboutUs
 						lorem='Skontaktuj się z nami'
-						bodylorem='tel.: + 48 736 861 191'
+						bodylorem='+ 48 736 861 191'
 						classOption='phoneNumber'
 					/>
 				</div>
