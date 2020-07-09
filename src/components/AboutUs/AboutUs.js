@@ -10,7 +10,15 @@ export default function AboutUs(props) {
 				{props.lorem}
 			</p>
 			<img alt='separator' src={separator} className='separator'></img>
-			<p className={`description ${props.classOption}`}>{props.bodylorem}</p>
+			{props.classOption === 'phoneNumber' ? (
+				<div className='description'>
+					<a href='tel:+48736861191' className={`description ${props.classOption}`}>
+						<p>{props.bodylorem}</p>
+					</a>
+				</div>
+			) : (
+				<p className='description'>{props.bodylorem}</p>
+			)}
 		</div>
 	);
 }
