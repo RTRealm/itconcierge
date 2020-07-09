@@ -44,7 +44,7 @@ class App extends Component {
 					/>
 					<Service
 						titlelorem='Kompleksowa obsługa'
-						bodylorem='Helpdesk, sprzęt i oprogramowanie, sieć, bezpieczeństwo IT, rozwiązania chmurowe, prace programistyczne. Projekty.'
+						bodylorem='Helpdesk, sprzęt i oprogramowanie, sieć, bezpieczeństwo IT, rozwiązania chmurowe, prace programistyczne.'
 						bitmap={
 							'https://res.cloudinary.com/ohcash/image/upload/v1594223480/itconcierge/img3.png'
 						}

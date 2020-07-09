@@ -1,5 +1,5 @@
 .formField {
-	width: 20vw;
+	width: 30vw;
 	margin-bottom: 20px;
 }
 
@@ -30,7 +30,7 @@ textarea {
 
 @media screen and (max-width: 850px) {
 	.formField {
-		width: 50vw;
+		width: 60vw;
 		margin-bottom: 15px;
 	}
 	/* .message {
