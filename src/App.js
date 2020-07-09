@@ -25,23 +25,26 @@ class App extends Component {
 					/>
 				</div>
 				<div id='misja'>
-					<AboutUs lorem='Misja, wizja, wartości' />
+					<AboutUs lorem='Jak działamy?' />
 				</div>
 				<div className='services'>
 					<Service
-						bodylorem='Odciążamy swoich klientów: zarządzających, ich działy i organizacje od planowania, nadzorowania i egzekucji funkcji IT aby pozwolić im na skoncentrowanie się na prowadzeniu biznesu.'
+						titlelorem='Szybki start'
+						bodylorem='Natychmiastowe rozpoczęcie wsparcia po rozpoznaniu środowiska IT.'
 						bitmap={
 							'https://res.cloudinary.com/ohcash/image/upload/v1594223481/itconcierge/img1.png'
 						}
 					/>
 					<Service
-						bodylorem='Nasi klienci otrzymują nowoczesne, efektywne, o ‘wartości dodanej’ rozwiązania dzięki którym ich praca staje się łatwiejsza.'
+						titlelorem='Wsparcie 24h'
+						bodylorem='Obsługa zdalna i u klienta, stały monitoring IT.'
 						bitmap={
 							'https://res.cloudinary.com/ohcash/image/upload/v1594223481/itconcierge/img2.png'
 						}
 					/>
 					<Service
-						bodylorem='Wartości którymi się kierujemy to uczciwość, prawość, profesjonalizm, poszanowanie pracowników i współpracowników Klienta, swoich i dostawców, wywieranie pozytywnego wpływu na otoczenie, efektywne zarządzanie.'
+						titlelorem='Kompleksowa obsługa'
+						bodylorem='Helpdesk, sprzęt i oprogramowanie, sieć, bezpieczeństwo IT, rozwiązania chmurowe, prace programistyczne. Projekty.'
 						bitmap={
 							'https://res.cloudinary.com/ohcash/image/upload/v1594223480/itconcierge/img3.png'
 						}

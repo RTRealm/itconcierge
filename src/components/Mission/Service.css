@@ -6,7 +6,7 @@
 	align-items: center; */
 	background-color: bisque;
 	width: 30%;
-	height: 500px;
+	height: 600px;
 }
 
 .imageService {
@@ -21,9 +21,16 @@
 	height: 80%;
 }
 
+.titleText {
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
 .bodyText {
 	margin: 1.2rem;
-	font-size: 1rem;
+	line-height: 1.4;
+	font-size: 1.1rem;
 	color: rgba(43, 43, 43, 1);
 	text-align: center;
 }
