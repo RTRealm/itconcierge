@@ -59,18 +59,18 @@ class App extends Component {
 							alignimage='left'
 							offertitle='24/7 Helpdesk'
 							offertext1='Jeden punkt kontaktu.n>Zarządzanie siecią komputerową.n>Monitorowanie ciągłości działania systemów.n>Doradztwo w tworzeniu infrastruktury IT.'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592737835/itconcierge/concImg3.png'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594494377/itconcierge/imgServ1.png'
 						/>
 						<Offer
 							offertitle='Rozwiązania antykryzysowe'
 							offertext1='Narzędzia do pracy grupowej i aplikacji do wymiany plików.n>Dostosowanie kluczowych aplikacji do pracy zdalnej.n>Prowadzenie zdalnego helpdesku dla pracowników.n>Przyśpieszenie działania sieci komputerowej.'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592737838/itconcierge/concImg2.png'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594496452/itconcierge/imgCrisis.png'
 						/>
 						<Offer
 							alignimage='left'
 							offertitle='Bezpieczeństwo'
 							offertext1='Zapewnienie kompleksowego bezpieczeństwa danych.n>Testy bezpieczeństwa i wprowadzanie zabezpieczeń.n>Stworzenie rozwiązania wysokiej dostępności.n>Opracowanie i wdrożenie polityki backupu.'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1592738048/itconcierge/concImg1.png'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594495459/itconcierge/imgSecurity.png'
 						/>
 					</div>
 				</div>
