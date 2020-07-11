@@ -32,21 +32,21 @@ class App extends Component {
 						titlelorem='Szybki start'
 						bodylorem='Natychmiastowe rozpoczęcie wsparcia po rozpoznaniu środowiska IT.'
 						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594223481/itconcierge/img1.png'
+							'https://res.cloudinary.com/ohcash/image/upload/v1594493260/itconcierge/imgRocket.png'
 						}
 					/>
 					<Service
 						titlelorem='Wsparcie 24h'
 						bodylorem='Obsługa zdalna i u klienta, stały monitoring IT.'
 						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594223481/itconcierge/img2.png'
+							'https://res.cloudinary.com/ohcash/image/upload/v1594493262/itconcierge/imgTime.png'
 						}
 					/>
 					<Service
 						titlelorem='Kompleksowa obsługa'
 						bodylorem='Helpdesk, sprzęt i oprogramowanie, sieć, bezpieczeństwo IT, rozwiązania chmurowe, prace programistyczne.'
 						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594223480/itconcierge/img3.png'
+							'https://res.cloudinary.com/ohcash/image/upload/v1594493266/itconcierge/imgComprehensive.png'
 						}
 					/>
 				</div>
