@@ -23,7 +23,7 @@ export default function Header(props) {
 			</div>
 			<div className='headerItem'>
 				<a href='#misja'>
-					<p>Misja</p>
+					<p>Start</p>
 				</a>
 			</div>
 			<div className='headerItem'>
