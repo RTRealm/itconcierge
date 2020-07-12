@@ -51,10 +51,10 @@ class App extends Component {
 					/>
 				</div>
 				<div className='offerbox'>
-					<div className='offerAboutUs'>
-						<div id='uslugi'>
+					<div className='offerAboutUs' id='uslugi'>
+						{/* <div id='uslugi'>
 							<AboutUs lorem='Zakres usług' color='white' />
-						</div>
+						</div> */}
 						<Offer
 							alignimage='left'
 							offertitle='24/7 Helpdesk'
