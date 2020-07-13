@@ -9,6 +9,9 @@ import Offer from './components/Offer/Offer';
 import Form from './components/Form/Form';
 import Footer from './components/Footer/Footer';
 
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+
 class App extends Component {
 	render() {
 		const refKontakt = React.createRef();
@@ -16,40 +19,45 @@ class App extends Component {
 			<div className='app'>
 				<Header scrollpoint={refKontakt} />
 				<div className='main'>
-					<Main />
+						<Main />
 				</div>
 				<div id='onas'>
-					<AboutUs
-						lorem='O nas'
-						bodylorem='4ITS specjalizuje się w outsourcingu technologicznym oraz rozwiązaniach informatycznych powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych.'
-					/>
+					<Fade bottom>
+						<AboutUs
+							lorem='O nas'
+							bodylorem='4ITS specjalizuje się w outsourcingu technologicznym oraz rozwiązaniach informatycznych powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych.'
+						/>
+					</Fade>
 				</div>
 				<div id='misja'>
 					<AboutUs lorem='Jak działamy?' />
 				</div>
-				<div className='services'>
-					<Service
-						titlelorem='Szybki start'
-						bodylorem='Natychmiastowe rozpoczęcie wsparcia po rozpoznaniu środowiska IT.'
-						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594493260/itconcierge/imgRocket.png'
-						}
-					/>
-					<Service
-						titlelorem='Wsparcie 24h'
-						bodylorem='Obsługa zdalna i u klienta, stały monitoring IT.'
-						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594493262/itconcierge/imgTime.png'
-						}
-					/>
-					<Service
-						titlelorem='Kompleksowa obsługa'
-						bodylorem='Helpdesk, sprzęt i oprogramowanie, sieć, bezpieczeństwo IT, rozwiązania chmurowe, prace programistyczne.'
-						bitmap={
-							'https://res.cloudinary.com/ohcash/image/upload/v1594493266/itconcierge/imgComprehensive.png'
-						}
-					/>
-				</div>
+				<Bounce bottom>
+					<div className='services'>
+						<Service
+							titlelorem='Szybki start'
+							bodylorem='Natychmiastowe rozpoczęcie wsparcia po rozpoznaniu środowiska IT.'
+							bitmap={
+								'https://res.cloudinary.com/ohcash/image/upload/v1594493260/itconcierge/imgRocket.png'
+							}
+						/>
+
+						<Service
+							titlelorem='Wsparcie 24h'
+							bodylorem='Obsługa zdalna i u klienta, stały monitoring IT.'
+							bitmap={
+								'https://res.cloudinary.com/ohcash/image/upload/v1594493262/itconcierge/imgTime.png'
+							}
+						/>
+						<Service
+							titlelorem='Kompleksowa obsługa'
+							bodylorem='Helpdesk, sprzęt i oprogramowanie, sieć, bezpieczeństwo IT, rozwiązania chmurowe, prace programistyczne.'
+							bitmap={
+								'https://res.cloudinary.com/ohcash/image/upload/v1594493266/itconcierge/imgComprehensive.png'
+							}
+						/>
+					</div>
+				</Bounce>
 				<div className='offerbox'>
 					<div className='offerAboutUs' id='uslugi'>
 						{/* <div id='uslugi'>
