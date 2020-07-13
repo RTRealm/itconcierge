@@ -64,13 +64,18 @@ class App extends Component {
 						<Offer
 							offertitle='Rozwiązania antykryzysowe'
 							offertext1='Narzędzia do pracy grupowej i aplikacji do wymiany plików.n>Dostosowanie kluczowych aplikacji do pracy zdalnej.n>Prowadzenie zdalnego helpdesku dla pracowników.n>Przyśpieszenie działania sieci komputerowej.'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594496452/itconcierge/imgCrisis.png'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594655717/itconcierge/imgCrisis1.png'
 						/>
 						<Offer
 							alignimage='left'
 							offertitle='Bezpieczeństwo'
 							offertext1='Zapewnienie kompleksowego bezpieczeństwa danych.n>Testy bezpieczeństwa i wprowadzanie zabezpieczeń.n>Stworzenie rozwiązania wysokiej dostępności.n>Opracowanie i wdrożenie polityki backupu.'
-							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594495459/itconcierge/imgSecurity.png'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594655336/itconcierge/imgSecurity1.png'
+						/>
+						<Offer
+							offertitle='Środowiska chmurowe'
+							offertext1='Migracje do chmury.n>Optymalizacja środowiska.n>Zarządzanie infrastrukturą chmurową.n>AWS, MS Azure, GCP.'
+							offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594555798/itconcierge/imgCloud.png'
 						/>
 					</div>
 				</div>

@@ -14,7 +14,7 @@ export default function AboutUs(props) {
 				<div className='description'>
 					<a href='tel:+48736861191' className={`description ${props.classOption}`}>
 						<p>
-							<i class='fas fa-phone'></i>
+							<i className='fas fa-phone'></i>
 							&nbsp;&nbsp;{props.bodylorem}
 						</p>
 					</a>
