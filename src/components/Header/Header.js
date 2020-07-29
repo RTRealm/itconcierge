@@ -3,11 +3,16 @@ import './Header.css';
 
 import Button from '../Button/Button';
 
+import LanguageSelector from '../LanguageSelector/LanguageSelector';
+
+import { Text } from '../../container/Language';
+
 export default function Header(props) {
 	function handleClick(e) {
 		e.preventDefault();
 		props.scrollpoint.current.scrollIntoView();
 	}
+
 	return (
 		<div className='header'>
 			<div className='headerItemLogo'>
@@ -18,7 +23,7 @@ export default function Header(props) {
 			</div>
 			<div className='headerItem'>
 				<a href='#onas'>
-					<p>O nas</p>
+					<p>{Text('aboutUsHeader')}</p>
 				</a>
 			</div>
 			<div className='headerItem'>
@@ -34,6 +39,7 @@ export default function Header(props) {
 			<div className='headerItem'>
 				<Button text='kontakt' onClick={handleClick}></Button>
 			</div>
+			<LanguageSelector />
 		</div>
 	);
 }
