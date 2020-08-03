@@ -18,12 +18,12 @@ export const LanguageContext = createContext({
 	language:
 		localStorage.getItem('language') != null
 			? languageOptions.find((item) => item.id === localStorage.getItem('language'))
-			: languageOptions[0],
+			: languageOptions[1],
 	dictionary:
 		dictionaryList[
 			localStorage.getItem('language') != null
 				? localStorage.getItem('language')
-				: languageOptions[0].id
+				: languageOptions[1].id
 		],
 });
 

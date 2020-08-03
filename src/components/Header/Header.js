@@ -14,32 +14,34 @@ export default function Header(props) {
 	}
 
 	return (
-		<div className='header'>
+		<React.Fragment>
 			<div className='headerItemLogo'>
 				<img
 					alt='4IT logo'
 					src='https://res.cloudinary.com/ohcash/image/upload/v1594239068/itconcierge/logo4.svg'
 				/>
 			</div>
-			<div className='headerItem'>
-				<a href='#onas'>
-					<p>{Text('aboutUsHeader')}</p>
-				</a>
+			<div className='header'>
+				<div className='headerItem menu'>
+					<a href='#onas'>
+						<p>{Text('aboutUsHeader')}</p>
+					</a>
+				</div>
+				<div className='headerItem menu'>
+					<a href='#misja'>
+						<p>{Text('startHeader')}</p>
+					</a>
+				</div>
+				<div className='headerItem'>
+					<a href='#uslugi'>
+						<p>{Text('servicesHeader')}</p>
+					</a>
+				</div>
+				<div className='headerItem'>
+					<Button text={Text('contactButton')} onClick={handleClick}></Button>
+				</div>
+				<LanguageSelector />
 			</div>
-			<div className='headerItem'>
-				<a href='#misja'>
-					<p>Start</p>
-				</a>
-			</div>
-			<div className='headerItem'>
-				<a href='#uslugi'>
-					<p>Usługi</p>
-				</a>
-			</div>
-			<div className='headerItem'>
-				<Button text='kontakt' onClick={handleClick}></Button>
-			</div>
-			<LanguageSelector />
-		</div>
+		</React.Fragment>
 	);
 }

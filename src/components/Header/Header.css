@@ -22,8 +22,9 @@ a:hover {
 }
 
 .headerItemLogo {
-	margin-right: 30vw;
-	margin-top: 50px;
+	position: absolute;
+	top: 2.5vh;
+	left: 15vw;
 }
 
 .headerItem {
@@ -45,16 +46,18 @@ a:hover {
 		width: 90vw;
 		height: 20vw;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		justify-content: space-around;
 	}
 	.headerItem {
-		margin-right: 20px;
+		margin-right: 0px;
 	}
 	.header p {
 		font-size: 3vw;
 		font-weight: 700;
 		text-transform: uppercase;
 	}
-	.headerItemLogo {
+	.headerItemLogo,
+	.menu {
 		display: none;
 	}
 }
