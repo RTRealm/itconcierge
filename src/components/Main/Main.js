@@ -3,12 +3,14 @@ import './Main.css';
 
 import Fade from 'react-reveal/Fade';
 
+import { Text } from '../../container/Language';
+
 export default function Main() {
 	return (
 		<div className='mainContent'>
 			<Fade left>
 				<div className='maintitle'>
-					<p className='mainText'>Twój zespół IT - 4IT Support</p>
+					<p className='mainText'>{Text('mainText')}</p>
 				</div>
 			</Fade>
 			<Fade right>
