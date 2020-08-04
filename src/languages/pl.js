@@ -24,7 +24,7 @@ const pl = {
 	offerList1d: 'Doradztwo w tworzeniu infrastruktury IT.',
 	offerTitle2: 'Rozwiązania antykryzysowe',
 	offerList2a: 'Narzędzia do pracy grupowej i aplikacji do wymiany plików.',
-	offerList2b: 'Dostosowanie kluczowych aplikacji do pracy zdalnej',
+	offerList2b: 'Dostosowanie kluczowych aplikacji do pracy zdalnej.',
 	offerList2c: 'Prowadzenie zdalnego helpdesku dla pracowników.',
 	offerList2d: 'Przyśpieszenie działania sieci komputerowej.',
 	offerTitle3: 'Bezpieczeństwo',
@@ -37,7 +37,10 @@ const pl = {
 	offerList4b: 'Optymalizacja środowiska.',
 	offerList4c: 'Zarządzanie infrastrukturą chmurową.',
 	offerList4d: 'AWS, MS Azure, GCP.',
-	sendButtonText: 'Wyślij'
+	sendButtonText: 'Wyślij',
+	formSubject: 'temat',
+	formEmail: 'adres@email',
+	formMsg: 'jak możemy pomóc?',
 };
 
 export default pl;
