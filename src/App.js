@@ -82,13 +82,19 @@ class App extends Component {
 							/>
 							<Offer
 								alignimage='left'
-								offertitle='Bezpieczeństwo'
-								offertext1='Zapewnienie kompleksowego bezpieczeństwa danych.n>Testy bezpieczeństwa i wprowadzanie zabezpieczeń.n>Stworzenie rozwiązania wysokiej dostępności.n>Opracowanie i wdrożenie polityki backupu.'
+								offertitle='offerTitle3'
+								offerlist1='offerList3a'
+								offerlist2='offerList3b'
+								offerlist3='offerList3c'
+								offerlist4='offerList3d'
 								offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594655336/itconcierge/imgSecurity1.png'
 							/>
 							<Offer
-								offertitle='Środowiska chmurowe'
-								offertext1='Migracje do chmury.n>Optymalizacja środowiska.n>Zarządzanie infrastrukturą chmurową.n>AWS, MS Azure, GCP.'
+								offertitle='offerTitle4'
+								offerlist1='offerList4a'
+								offerlist2='offerList4b'
+								offerlist3='offerList4c'
+								offerlist4='offerList4d'
 								offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594555798/itconcierge/imgCloud.png'
 							/>
 						</div>

@@ -27,6 +27,17 @@ const pl = {
 	offerList2b: 'Dostosowanie kluczowych aplikacji do pracy zdalnej',
 	offerList2c: 'Prowadzenie zdalnego helpdesku dla pracowników.',
 	offerList2d: 'Przyśpieszenie działania sieci komputerowej.',
+	offerTitle3: 'Bezpieczeństwo',
+	offerList3a: 'Zapewnienie kompleksowego bezpieczeństwa danych.',
+	offerList3b: 'Testy bezpieczeństwa i wprowadzanie zabezpieczeń.',
+	offerList3c: 'Stworzenie rozwiązania wysokiej dostępności.',
+	offerList3d: 'Opracowanie i wdrożenie polityki backupu.',
+	offerTitle4: 'Środowiska chmurowe',
+	offerList4a: 'Migracje do chmury.',
+	offerList4b: 'Optymalizacja środowiska.',
+	offerList4c: 'Zarządzanie infrastrukturą chmurową.',
+	offerList4d: 'AWS, MS Azure, GCP.',
+	sendButtonText: 'Wyślij'
 };
 
 export default pl;
