@@ -16,7 +16,7 @@ const en = {
 	serviceClockBody: 'Remote and on-site service, continuous IT monitoring.',
 	comprehTitle: 'Comprehensive service',
 	comprehBody:
-		'Helpdesk, hardware and software advisory, network, IT security, cloud solutions, software development.',
+		'Hardware and software advisory, network, IT security, cloud solutions, software development.',
 	offerTitle1: '24/7 Helpdesk',
 	offerList1a: 'Single point of contact.',
 	offerList1b: 'Computer network management.',
