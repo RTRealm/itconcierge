@@ -36,6 +36,24 @@
 	text-align: center;
 }
 
+@media screen and (max-width: 1110px) {
+	.service {
+		height: 520px;
+	}
+	.titleText {
+		margin-top: 1rem;
+		text-align: center;
+		font-weight: 700;
+		font-size: 1.2rem;
+	}
+	.bodyText {
+		margin: 1.2rem;
+		font-size: 0.8rem;
+		color: rgba(43, 43, 43, 1);
+		text-align: center;
+	}
+}
+
 @media screen and (max-width: 850px) {
 	.service {
 		background-color: bisque;
