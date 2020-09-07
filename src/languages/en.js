@@ -6,7 +6,7 @@ const en = {
 	mainText: 'Your IT team - 4IT Support',
 	aboutUsTitle: 'About us',
 	aboutUsBody:
-		'4ITS is an organisation specializing in technology outsourcing and IT solutions  created on the basis of many years of experience of the team members in the areas of IT, software development and managing companies and business projects.',
+		'4ITS is an organisation specializing in technology outsourcing and IT solutions created on the basis of many years of experience of the team members in the areas of IT, software development and managing companies and business projects.',
 	howWeWork: 'How we work?',
 	contactUs: 'Please reach out',
 	contactPhone: '+ 48 736 861 191',

@@ -6,7 +6,7 @@ const pl = {
 	mainText: 'Twój zespół IT - 4IT Support',
 	aboutUsTitle: 'O nas',
 	aboutUsBody:
-		'4ITS specjalizuje się w outsourcingu technologicznym oraz rozwiązaniach informatycznych powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych.',
+		'4ITS specjalizuje się w outsourcingu technologicznym oraz rozwiązaniach informatycznych, powstała na bazie długoletnich doświadczeń zespołu w obszarach działów IT, programowania oraz prowadzenia organizacji i projektów biznesowych.',
 	howWeWork: 'Jak działamy?',
 	contactUs: 'Skontaktuj się z nami',
 	contactPhone: '+ 48 736 861 191',
