@@ -19,91 +19,93 @@ class App extends Component {
 		const refKontakt = React.createRef();
 		return (
 			<LanguageProvider>
-				<div className='app'>
-					<Header scrollpoint={refKontakt} />
-					<div className='main'>
-						<Main />
-					</div>
-					<div id='onas'>
-						<Fade bottom>
-							<AboutUs lorem='aboutUsTitle' bodylorem='aboutUsBody' />
-						</Fade>
-					</div>
-					<div id='misja'>
-						<AboutUs lorem='howWeWork' />
-					</div>
-					<Bounce bottom>
-						<div className='services'>
-							<Service
-								titlelorem='serviceRocketTitle'
-								bodylorem='serviceRocketBody'
-								bitmap={
-									'https://res.cloudinary.com/ohcash/image/upload/v1594493260/itconcierge/imgRocket.png'
-								}
-							/>
-
-							<Service
-								titlelorem='serviceClockTitle'
-								bodylorem='serviceClockBody'
-								bitmap={
-									'https://res.cloudinary.com/ohcash/image/upload/v1594493262/itconcierge/imgTime.png'
-								}
-							/>
-							<Service
-								titlelorem='comprehTitle'
-								bodylorem='comprehBody'
-								bitmap={
-									'https://res.cloudinary.com/ohcash/image/upload/v1594493266/itconcierge/imgComprehensive.png'
-								}
-							/>
+				<div className='container'>
+					<div className='app'>
+						<Header scrollpoint={refKontakt} />
+						<div className='main'>
+							<Main />
 						</div>
-					</Bounce>
-					<div className='offerbox'>
-						<div className='offerAboutUs' id='uslugi'>
-							{/* <div id='uslugi'>
+						<div id='onas'>
+							<Fade bottom>
+								<AboutUs lorem='aboutUsTitle' bodylorem='aboutUsBody' />
+							</Fade>
+						</div>
+						<div id='misja'>
+							<AboutUs lorem='howWeWork' />
+						</div>
+						<Bounce bottom>
+							<div className='services'>
+								<Service
+									titlelorem='serviceRocketTitle'
+									bodylorem='serviceRocketBody'
+									bitmap={
+										'https://res.cloudinary.com/ohcash/image/upload/v1594493260/itconcierge/imgRocket.png'
+									}
+								/>
+
+								<Service
+									titlelorem='serviceClockTitle'
+									bodylorem='serviceClockBody'
+									bitmap={
+										'https://res.cloudinary.com/ohcash/image/upload/v1594493262/itconcierge/imgTime.png'
+									}
+								/>
+								<Service
+									titlelorem='comprehTitle'
+									bodylorem='comprehBody'
+									bitmap={
+										'https://res.cloudinary.com/ohcash/image/upload/v1594493266/itconcierge/imgComprehensive.png'
+									}
+								/>
+							</div>
+						</Bounce>
+						<div className='offerbox'>
+							<div className='offerAboutUs' id='uslugi'>
+								{/* <div id='uslugi'>
 							<AboutUs lorem='Zakres usług' color='white' />
 						</div> */}
-							<Offer
-								alignimage='left'
-								offertitle='offerTitle1'
-								offerlist1='offerList1a'
-								offerlist2='offerList1b'
-								offerlist3='offerList1c'
-								offerlist4='offerList1d'
-								offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594670537/itconcierge/imgHelpdesk1.png'
-							/>
-							<Offer
-								offertitle='offerTitle2'
-								offerlist1='offerList2a'
-								offerlist2='offerList2b'
-								offerlist3='offerList2c'
-								offerlist4='offerList2d'
-								offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594655717/itconcierge/imgCrisis1.png'
-							/>
-							<Offer
-								alignimage='left'
-								offertitle='offerTitle3'
-								offerlist1='offerList3a'
-								offerlist2='offerList3b'
-								offerlist3='offerList3c'
-								offerlist4='offerList3d'
-								offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594655336/itconcierge/imgSecurity1.png'
-							/>
-							<Offer
-								offertitle='offerTitle4'
-								offerlist1='offerList4a'
-								offerlist2='offerList4b'
-								offerlist3='offerList4c'
-								offerlist4='offerList4d'
-								offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594555798/itconcierge/imgCloud.png'
-							/>
+								<Offer
+									alignimage='left'
+									offertitle='offerTitle1'
+									offerlist1='offerList1a'
+									offerlist2='offerList1b'
+									offerlist3='offerList1c'
+									offerlist4='offerList1d'
+									offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594670537/itconcierge/imgHelpdesk1.png'
+								/>
+								<Offer
+									offertitle='offerTitle2'
+									offerlist1='offerList2a'
+									offerlist2='offerList2b'
+									offerlist3='offerList2c'
+									offerlist4='offerList2d'
+									offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594655717/itconcierge/imgCrisis1.png'
+								/>
+								<Offer
+									alignimage='left'
+									offertitle='offerTitle3'
+									offerlist1='offerList3a'
+									offerlist2='offerList3b'
+									offerlist3='offerList3c'
+									offerlist4='offerList3d'
+									offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594655336/itconcierge/imgSecurity1.png'
+								/>
+								<Offer
+									offertitle='offerTitle4'
+									offerlist1='offerList4a'
+									offerlist2='offerList4b'
+									offerlist3='offerList4c'
+									offerlist4='offerList4d'
+									offerimage='https://res.cloudinary.com/ohcash/image/upload/v1594555798/itconcierge/imgCloud.png'
+								/>
+							</div>
 						</div>
+						<div id='kontakt' ref={refKontakt}>
+							<AboutUs lorem='contactUs' bodylorem='contactPhone' classOption='phoneNumber' />
+						</div>
+						<Form />
+						<Footer />
 					</div>
-					<div id='kontakt' ref={refKontakt}>
-						<AboutUs lorem='contactUs' bodylorem='contactPhone' classOption='phoneNumber' />
-					</div>
-					<Form />
-					<Footer />
 				</div>
 			</LanguageProvider>
 		);
