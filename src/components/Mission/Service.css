@@ -36,19 +36,20 @@
 	text-align: center;
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1110px) {
 	.service {
-		height: 520px;
+		height: 420px;
+		width: 30%;
 	}
 	.titleText {
-		margin-top: 1rem;
+		margin-top: 0.5em;
 		text-align: center;
 		font-weight: 700;
-		font-size: 1.2rem;
+		font-size: 1.2em;
 	}
 	.bodyText {
-		margin: 1.2rem;
-		font-size: 0.8rem;
+		margin: 1em;
+		font-size: 0.8em;
 		color: rgba(43, 43, 43, 1);
 		text-align: center;
 	}

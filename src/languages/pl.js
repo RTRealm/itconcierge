@@ -16,7 +16,7 @@ const pl = {
 	serviceClockBody: 'Obsługa zdalna i u klienta, stały monitoring IT.',
 	comprehTitle: 'Kompleksowa obsługa',
 	comprehBody:
-		'Sprzęt i oprogramowanie, sieć, bezpieczeństwo IT, rozwiązania chmurowe, prace programistyczne.',
+		'Wszystkie kompetencje w jednym miejscu.',
 	offerTitle1: '24/7 Helpdesk',
 	offerList1a: 'Jeden punkt kontaktu.',
 	offerList1b: 'Zarządzanie siecią komputerową.',
